@@ -5,7 +5,7 @@
     "type": "library",
     "keywords": ["cakephp", "croogo", "plugin", "recaptcha", "captcha", "spam", "abuse"],
     "homepage": "http://www.google.com/recaptcha/",
-    "license": "GPL",
+    "license": "GPL-3.0",
     "require": {
         "google/recaptcha": "1.1"
     },
