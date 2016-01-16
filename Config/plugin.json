@@ -1,0 +1,12 @@
+{
+	"name": "ReCaptcha",
+	"description": "ReCaptcha",
+
+	"author": "Harvinder Deogan",
+	"authorEmail": "mail@harvinderdeogan.com",
+	"authorUrl": "http://www.harvinderdeogan.com",
+
+	"dependencies": {
+		"plugins": []
+	}
+}

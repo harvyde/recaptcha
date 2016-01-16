@@ -1,0 +1,15 @@
+{
+    "name": "harvyde/recaptcha",
+    "description": "A ReCaptcha plugin for CakePHP, Croogo",
+    "require": {
+        "google/recaptcha": "1.1"
+    },
+    "license": "MTA",
+    "authors": [
+        {
+            "name": "Harvinder Deogan",
+            "email": "mail@harvinderdeogan.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
