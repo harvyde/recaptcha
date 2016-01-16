@@ -1,0 +1,28 @@
+# recaptcha
+ReCaptcha Plugin for CakePHP and Croogo, based on google re-captcha
+
+Instalation
+-----------------------------
+
+Clone this repo into your plugins directory into your CakePHP / Croogo project.
+
+cd /path/to/your/cake/project/plugins
+git clone https://github.com/harvyde/recaptcha
+
+Visit https://www.google.com/recaptcha/admin#list to add your site to google recaptcha.
+Visit https://developers.google.com/recaptcha/docs/start?hl=en for more details
+
+Create following two settings into CakePHP, with the value api keys from google recaptcha
+
+	ReCaptcha.siteKey
+	ReCaptcha.secretKey
+
+	//update the required controller file to load the component
+	public $components = array(
+    'ReCaptcha.Recaptcha',
+	);
+
+Edit the bootstrap file, ususally located at path app/Config/bootstrap.php and append this line to load ReCaptcha plugin
+CakePlugin::load('ReCaptcha', array('bootstrap' => false, 'routes' => false));
+
+
