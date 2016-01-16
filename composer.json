@@ -2,7 +2,7 @@
     "name": "harvyde/recaptcha",
     "version": "1.0",
     "description": "A ReCaptcha plugin for CakePHP, Croogo",
-    "type": "plugin",
+    "type": "library",
     "keywords": ["cakephp", "croogo", "plugin", "recaptcha", "captcha", "spam", "abuse"],
     "homepage": "http://www.google.com/recaptcha/",
     "license": "GPL",
